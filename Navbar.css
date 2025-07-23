@@ -1,0 +1,67 @@
+
+
+.Navbar{
+  display: flex;
+  width: 80%; /* changed from 80% to reduce empty space on sides */
+  height: fit-content;
+  background-color: #37c7d2;
+  color: black;
+  padding: 10px 0;
+  margin: 50px 10%; /* centers horizontally */
+  justify-content: space-between;
+  /* gap: 50px; /* ← fixed */ 
+  align-items: center; /* vertically center items */
+  border: 4px solid #000;
+  box-shadow: 8px 8px 0 #000;
+  transition: all 0.2s ease;
+  
+  
+}
+
+.neo-brutalist {
+  
+}
+.Navbar:hover {
+  box-shadow: 6px 6px 0 #000;
+  transform: translate(2px, 2px);
+}
+
+.LeftSide{
+  width:30%;
+  flex:1;
+}
+
+.Logo{
+  width:fit-content;
+  height:fit-content;;
+  color:black;
+  font-size:25px;
+  padding:10px 20px;
+}
+
+.RightSide{
+  width:50%;
+  flex:1;
+
+}
+.NavigationBar{
+  display:flex;
+  /* flex-direction:row; */
+  justify-content:space-around;
+  
+  /* background-color:blue */
+}
+
+.NavigationLink{
+  padding:10px 20px;
+  border:1px solid white;
+  border-radius:10px;
+  transition:0.6s;
+
+}
+.NavigationLink:hover{
+  background-color:white;
+  color:black;
+  cursor:pointer;
+  transition:0.6s;
+}
